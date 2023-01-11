@@ -1,0 +1,31 @@
+{
+  "name": "fa-subtitle",
+  "version": "1.0.0",
+  "description": "API for download FA subtitle",
+  "main": "index.js",
+  "repository": "https://github.com/Epic-R-R/FA-Subtitle.git",
+  "author": "Sullivan <38718448+Epic-R-R@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.31",
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "@types/nodemon": "^1.19.2"
+  }
+}
