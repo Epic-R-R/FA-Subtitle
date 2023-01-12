@@ -61,3 +61,5 @@
   }
 ]
 ```
+### License
+[MIT](https://github.com/Epic-R-R/FA-Subtitle/blob/master/LICENSE)
