@@ -4,7 +4,7 @@
   "description": "API for download FA subtitle",
   "main": "index.js",
   "repository": "https://github.com/Epic-R-R/FA-Subtitle.git",
-  "author": "Sullivan <38718448+Epic-R-R@users.noreply.github.com>",
+  "author": "Sullivan",
   "license": "MIT",
   "scripts": {
     "start": "ts-node index.ts",
