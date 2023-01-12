@@ -6,7 +6,7 @@ import { MovieData } from "../types/movieData";
 
 const searchDetail = async (req: Request, res: Response) => {
   try {
-    const movieName = req.query.movie;
+    const movieName = req.query.name;
     axiosClient.get(`${process.env.BASE_URL}${movieName}`).then((response) => {
       const $ = cheerio.load(response);
       const result = $(".cat-post");
